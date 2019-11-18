@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emoji Search</title>
+    
+    <!-- load emoji.css -->
+    <link rel="stylesheet" href="css/emoji.css">
+
+    <!-- load font aewsome -->
+    <script src="https://kit.fontawesome.com/d56261bbb9.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-emoji">
+            <div class="emoji-search">
+                <input type="text" placeholder="Search Your Emoji" oninput="searchIcon(this.value)">
+            </div>
+            <div class="emoji-container">
+               <!-- where all data inserted dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- load emoji.js -->
+    <script src="js/emoji.js"></script>
+</body>
+</html>
